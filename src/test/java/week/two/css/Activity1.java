@@ -35,4 +35,8 @@ public class Activity1 {
         driver.quit();
 
     }
+
+    public By getButtonLocator(String buttonText){
+        return By.xpath("//button[text()='"+buttonText+"']");
+    }
 }
