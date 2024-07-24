@@ -22,6 +22,7 @@ public class FrameHandling {
         String iframe = driver.findElement(By.xpath("//p[text()='Iframe']")).getText();
         System.out.println(iframe);
 
+
         driver.quit();
     }
 }
